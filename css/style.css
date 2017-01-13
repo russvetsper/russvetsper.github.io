@@ -478,14 +478,14 @@ footer {
 .social-icon li a {
     color: #999;
     cursor: pointer;
-    font-size: 50px;
+    font-size: 40px;
     text-decoration: none;
     -webkit-transition: all ease-in-out 0.4s;
     transition: all ease-in-out 0.4s;
     text-align: center;
     vertical-align: middle;
     position: relative;
-    margin: 22px 14px 22px 14px;
+    margin: -162px 14px 22px 14px;
 }
 
 .social-icon li a:hover {
