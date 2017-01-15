@@ -454,7 +454,7 @@ footer {
 footer {
     background: #151515;
     color: #ffffff;
-    padding-top: 140px;
+    padding-top: 70px;
     padding-bottom: 140px;
 }
 
@@ -479,7 +479,7 @@ footer {
 .social-icon li a {
     color: #999;
     cursor: pointer;
-    font-size: 40px;
+    font-size: 50px;
     text-decoration: none;
     -webkit-transition: all ease-in-out 0.4s;
     transition: all ease-in-out 0.4s;
