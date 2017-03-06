@@ -261,22 +261,26 @@
 
 
 <!-- Contact Section -->
-<section id="contact" class="parallax-section">
+<!-- <section id="contact" class="parallax-section">
      <div class="container">
           <div class="row">
 
                 <div class="col-md-12 col-sm-12">
                     <!-- SECTION TITLE -->
-                    <div class="section-title">
+                    <!-- <div class="section-title">
                          <h2>Contact</h2>
                          <p>let's work together!</p>
                     </div>
-               </div>
+               </div>  -->
 
-               <div class="col-md-offset-1 col-md-10 col-sm-12">
+
+
+
+
+               <!-- <div class="col-md-offset-1 col-md-10 col-sm-12">
                      <!-- CONTACT FORM HERE -->
 
-
+<!--
                     <div class="wow fadeInUp contact-form" data-wow-delay="1s">
 
                         <form id="contactform" method="Post" >
@@ -299,11 +303,27 @@
 				                </script>
 
                     </div>
-               </div>
+               </div> -->
 
-          </div>
+          <!-- </div>
      </div>
-</section>
+</section>  -->
+
+
+<form id="contactform" method="POST">
+  <input type="text" name="name" placeholder="Your name">
+  <input type="email" name="_replyto" placeholder="Your email">
+  <input type="hidden" name="_subject" value="Website contact" />
+  <textarea name="message" placeholder="Your message"></textarea>
+  <input type="text" name="_gotcha" style="display:none" />
+  <input type="submit" value="Send">
+</form>
+<script>
+  var contactform =  document.getElementById('contactform');
+  contactform.setAttribute('action', '//formspree.io/' + 'russvetsper' + '@' + 'gmail' + '.' + 'com');
+</script>
+
+
 
 
 
